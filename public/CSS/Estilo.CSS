@@ -1,0 +1,75 @@
+#footer{
+    background-color: #283747 ;
+    color: white;
+    
+}
+#footer a, #footer h5, #footerDivider{
+    text-decoration: none;
+    color: white;
+}
+#footerDivider{
+    text-decoration: none;
+    background-color: #707BBB;
+    color: black;
+
+}
+
+#main img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel{
+    position: relative;
+}
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+.btn-Tecnoeduca{
+    background-color: #4353ac;
+    color: black;
+}
+.btn-Tecnoeduca:hover{
+    background-color: #34495E;
+}
+#clase-online{
+    background: #212529;
+    color: white;
+}
+
+#clase-online img{
+    max-width: 100%;
+}
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #1A5276;
+    border-radius: .25rem;
+    }
+    .tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+    margin-left: -3px;
+    content: "";
+    border-width: 5px 5px 0;
+    border-top-color: #1A5276;
+    }
+
+#registro {
+    margin-top: 65 ;
+    font-size: 60px;
+}
